@@ -1,0 +1,105 @@
+h1{
+    text-align: center;
+    text-shadow: 5px 4px 16px;
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.shape-container {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    gap: 20px;
+    text-align: center;
+}
+
+.advanced-hemisphere {
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to right, #6aa84f, #b6d7a8);
+ border-top: green 4px ridge;
+ border-left:  rgb(13, 74, 13) 30px ridge;
+ border-right: green 30px ridge ;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-style: dotted;
+
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    box-shadow: 6px 5px 25px rgb(119, 15, 50);
+}
+
+.advanced-round-rectangle {
+    width: 200px;
+    height: 100px;
+ 
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-left: groove 20px pink;
+    border-right: groove 20px pink;
+   
+  
+}
+
+.advanced-bullet {
+    width: 200px;
+    height: 100px;
+    
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+
+    border: 10px solid red;
+    border-top-color: rgb(24, 98, 24);
+    border-right-color: rgb(227, 227, 16);
+    border-bottom-color: blue;
+    border-left-color: purple;
+border-style: double;
+
+  
+box-shadow: 6px 5px 25px rgb(119, 15, 50);
+
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+.advanced-leaf {
+    width: 200px;
+    height: 100px;
+    border: 10px solid ;
+border-left-color:   rgb(205, 43, 70);
+border-bottom-color:  rgb(205, 43, 70) ;
+border-top-color: aqua;
+border-right-color:blue ;
+    border-top-right-radius: 100px;
+border-bottom-left-radius: 100px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: green;
+    box-shadow: 6px 5px 25px rgb(15, 118, 15);
+ 
+}
